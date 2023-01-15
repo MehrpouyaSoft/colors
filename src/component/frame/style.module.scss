@@ -1,0 +1,51 @@
+.frame {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+
+    .over {
+        border: 3px dashed #bbd3ff;
+        border-radius: 100px;
+        padding: 20px 60px;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .cards {
+        display: flex;
+        column-gap: 20px;
+
+        .box {
+            position: relative;
+
+            span {
+                visibility: hidden;
+                position: absolute;
+                bottom: 3px;
+                left: 3px;
+                background-color: #fff;
+                font-size: 0.8rem;
+                padding: 0 3px;
+                border-radius: 100px;
+                cursor: pointer;
+            }
+
+            &:hover {
+                span {
+                    visibility: visible;
+                }
+            }
+
+            & > div {
+                width: 70px;
+                height: 70px;
+                border-radius: 13px;
+                cursor: move;
+            }
+        }
+    }
+}

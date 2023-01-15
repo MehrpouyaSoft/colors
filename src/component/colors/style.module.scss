@@ -1,0 +1,13 @@
+.box {
+    max-width: 95%;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    column-count: 3;
+    flex-wrap: wrap;
+    background-color: #FFF;
+}
