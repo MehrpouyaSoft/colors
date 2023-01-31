@@ -33,7 +33,7 @@ function App() {
         <DndProvider backend={HTML5Backend}>
           <DndProvider backend={HTML5Backend} context={window}>
             <>
-              <div style={{ textAlign: 'center', padding: '60px 0 30px 0' }}><h1>اندیشه سپید ایران</h1></div>
+              <div style={{ textAlign: 'center', padding: '60px 0 30px 0' }}><h1>Pick Colors</h1></div>
               <Colors />
               <Frame />
             </>
